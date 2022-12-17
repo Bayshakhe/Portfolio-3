@@ -1,0 +1,93 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"]{
+    float: left;
+    padding: 20px;
+}
+.total-site{
+    width: 1500px;
+}
+/*first div design starts from here*/
+.first-div{
+    display: flex;
+    float: left;
+    height: 440px;
+}
+.first-div img{
+    width: 1500px;
+    height: 440px;
+    margin: 0 auto;
+}
+.head-nav{
+    margin:0 auto;
+    left: 65%;
+    padding: 40px 0;
+}
+.name{
+    margin: 0 44%;
+    top: 300px;
+}
+#main-pic{
+    height: 180px;
+    width: 170px;
+    padding: 0;
+    margin: 0px;
+    left: 44%;
+    right: 40%;
+}
+/*first div design ends from here*/
+
+
+
+/*second div design starts from here*/
+.second-div{
+    height: 350px;
+    display: flex;
+    float: left;
+    margin: 1% auto;
+}
+.sec-pic{
+    height: 200px;
+    width: 160px;
+    margin:4.5% 0;
+    margin-left: 10%;
+    border: 2px solid red;
+    padding: 5px;
+}
+.left-text p{
+    padding: 20px;
+}
+.left-text hr{
+    margin: 0 20px ;
+}
+.left-text button{
+    margin: 0 20px;
+}
+/*second div design ends from here*/
+
+
+/*third div design starts from here*/
+.third-div{
+    box-sizing: border-box;
+    height: 450px;
+    margin: 0% auto;
+    padding: 3% 7% ;
+}
+
+.cards{
+    display: flex;
+    float: left;
+    padding: 0 20px;
+}
+/*third div design ends from here*/
